@@ -6,6 +6,7 @@ namespace Methodlar
 {
     class SepetManager
     {
+        //naming convention
         public void Ekle(Urun urun)
         {
             Console.WriteLine("Sepete Eklendi : " + urun.Adi);

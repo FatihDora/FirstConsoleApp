@@ -33,6 +33,8 @@ namespace Methodlar
 
             Console.WriteLine("------------Metodlar-----------");
 
+            //instance -örnek alma
+            //encapsulation
             SepetManager sepetManager = new SepetManager();
             sepetManager.Ekle(urun1);
             sepetManager.Ekle(urun2);
