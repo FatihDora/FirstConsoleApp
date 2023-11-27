@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace ClassMetotDemo
 {
-    internal class MusteriManager
+    public class MusteriManager
     {
+        public void MusteriEkle(Musteri musteri)
+        {
+            Console.WriteLine("Musteri Eklendi :" +  musteri.Ad +" --- " + musteri.Soyad );
+        }
+
     }
 }
